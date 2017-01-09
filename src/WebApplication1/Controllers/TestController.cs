@@ -22,12 +22,12 @@ namespace WebApplication1.Controllers
         }
 
         // POST: api/Test
-        public void Post([FromBody]string value)
+        public void Post()
         {
         }
 
         // PUT: api/Test/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id)
         {
         }
 
